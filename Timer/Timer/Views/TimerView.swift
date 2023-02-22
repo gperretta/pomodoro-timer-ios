@@ -20,6 +20,8 @@ struct TimerView: View {
         }
     }
     
+    let timerObject = Timer.self
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -63,7 +65,7 @@ struct TimerView: View {
                     Spacer()
                     // timer ending time (starting time + 25 min by default etc)
                     VStack(spacing: 8) {
-                        Text("End at")
+                        Text("Ending at")
                             .opacity(0.7)
                         if (timerManager.timerState == .notStarted) {
                             Text((timerManager.startTime)+1500,
@@ -83,7 +85,7 @@ struct TimerView: View {
                 Button {
                     timerManager.toggleTimerState()
                 } label: {
-                    Text(timerManager.timerState == .focusing ? "Start a pause" : "Start to focus")
+                    Text(timerManager.timerState == .focusing ? "Take a break" : "Start to focus")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .padding(.vertical, 12)
