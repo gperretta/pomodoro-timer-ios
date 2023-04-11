@@ -21,4 +21,7 @@ Other components of the intuitive interface are:
 </br>
 
 
-**Developed in Swift with SwiftUI framework, using Xcode IDE.**
+<sub> Designed and developed at the Apple Developer Academy, learner program 22/23. Other details may be covered by NDA. </sub>
+
+
+<sub> **Languages & Tools:** Swift, SwiftUI, Xcode. </sub>
