@@ -21,7 +21,4 @@ Other components of the intuitive interface are:
 </br>
 
 
-<sub> Designed and developed at the Apple Developer Academy, learner program 22/23. Other details may be covered by NDA. </sub>
-
-
-<sub> **Languages & Tools:** Swift, SwiftUI, Xcode. </sub>
+**Programming language & Tools:** Swift, SwiftUI, Xcode. 
